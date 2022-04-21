@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" a href="style.css">
+    <link rel="stylesheet" a href="Css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Finding Doctor</h1>
-        <form>
-            <div class="form_input">
-                <input type="text" name="username" placeholder="Enter Your Username"/>
-                <input type="password" name="password" placeholder="Enter Your Password"/>
+<div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <h2 class="active"> Dokter </h2>
+            
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="/Logo/logo1.png" alt="logo" width="150">
             </div>
-            <input type="submit" name="submit" value="Login as Patient" class="btn-loginaspatient"/>
-            <input type="submit" name="submit" value="Login as Doctor" class="btn-loginasdoctor"/>
-        </form>
+
+            <!-- Login -->
+            <form>
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Dokter_id">
+                <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="Log In">
+            </form>
+        </div>
+
     </div>
 </body>
 </html>

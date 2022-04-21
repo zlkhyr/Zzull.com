@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" a href="Css/style.css">
+    <link rel="icon" href="Logo_tittle.png" type="image/x-icon">
 </head>
 <body>
 <div class="wrapper fadeInDown">

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" a href="Css/style.css">
-    <link rel="icon" href="Logo_tittle.png" type="image/x-icon">
+     <link rel="stylesheet" a href="Css/style.css">
+     <title>Login</title>
+    <link rel="icon" href="Logo/Logo_tittle.png" type="image/x-icon">
 </head>
 <body>
 <div class="wrapper fadeInDown">
@@ -21,7 +21,7 @@
 
             <!-- Login -->
             <form>
-                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Dokter_id">
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Nama">
                 <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
                 <input type="submit" class="fadeIn fourth" value="Log In">
             </form>
